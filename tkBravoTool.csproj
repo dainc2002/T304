@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B10E0874-D209-4648-8869-B4001B668EE7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>tkBravoTool</RootNamespace>
+    <AssemblyName>tkBravoTool</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\dungnt3\Desktop\New folder\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>D8DD48F80E872E4FB759FCFEECF24E41F531E62F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>TranslateBravo_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Logo-BRAVO.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AllForm\FrmCopyCommand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllForm\FrmCopyCommand.Designer.cs">
+      <DependentUpon>FrmCopyCommand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllForm\FrmCreateCommandList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllForm\FrmCreateCommandList.Designer.cs">
+      <DependentUpon>FrmCreateCommandList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllForm\FrmCreateDirectory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllForm\FrmCreateDirectory.Designer.cs">
+      <DependentUpon>FrmCreateDirectory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllForm\FrmDich.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllForm\FrmDich.Designer.cs">
+      <DependentUpon>FrmDich.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllForm\FrmSystemFunc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllForm\FrmSystemFunc.Designer.cs">
+      <DependentUpon>FrmSystemFunc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DPL\Encode.cs" />
+    <Compile Include="DAL\SysUsp.cs" />
+    <Compile Include="DPL\ClipboardProcess.cs" />
+    <Compile Include="DAL\DataAccess.cs" />
+    <Compile Include="DAL\DataLoading.cs" />
+    <Compile Include="DPL\DataProcess.cs" />
+    <Compile Include="DesignView\DesignForm.cs" />
+    <Compile Include="DPL\ExportFile.cs" />
+    <Compile Include="DesignView\FormatFontStyle.cs" />
+    <Compile Include="DPL\GetXML.cs" />
+    <Compile Include="DAL\LoginProvider.cs" />
+    <Compile Include="DPL\TempTable.cs" />
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiColumnComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SO\MyApp.cs" />
+    <Compile Include="SO\MyConfig.cs" />
+    <Compile Include="SO\MyInfo.cs" />
+    <Compile Include="SO\PhanQuyen.cs" />
+    <Compile Include="SplitButtonDemo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SystemForm\FrmDonate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemForm\FrmDonate.Designer.cs">
+      <DependentUpon>FrmDonate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemForm\FrmPassCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemForm\FrmPassCode.Designer.cs">
+      <DependentUpon>FrmPassCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemForm\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemForm\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AllForm\FrmCopyCommand.resx">
+      <DependentUpon>FrmCopyCommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllForm\FrmCreateCommandList.resx">
+      <DependentUpon>FrmCreateCommandList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllForm\FrmCreateDirectory.resx">
+      <DependentUpon>FrmCreateDirectory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllForm\FrmDich.resx">
+      <DependentUpon>FrmDich.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllForm\FrmSystemFunc.resx">
+      <DependentUpon>FrmSystemFunc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SystemForm\FrmDonate.resx">
+      <DependentUpon>FrmDonate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemForm\FrmPassCode.resx">
+      <DependentUpon>FrmPassCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemForm\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DesignView\Logo\Logo tkBRAVO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DesignView\Logo\Find.png" />
+    <Content Include="DesignView\Logo\Logo-BRAVO.ico" />
+    <None Include="DesignView\Logo\z2481752559264_1ea371c0a65969f53a12dde3082fa117.jpg" />
+    <Content Include="Logo-BRAVO.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DesignView\ToolBox\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
