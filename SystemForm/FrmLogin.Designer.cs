@@ -40,74 +40,82 @@ namespace tkBravoTool.SystemForm
             this.btnLogin = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.ckbSave = new System.Windows.Forms.CheckBox();
-            this.txtDataSource = new MultiColumnComboBoxDemo.MultiColumnComboBox();
             this.ckbShowPass = new System.Windows.Forms.CheckBox();
+            this.txtDataSource = new MultiColumnComboBoxDemo.MultiColumnComboBox();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(11, 15);
+            this.label1.Location = new System.Drawing.Point(15, 18);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 13);
+            this.label1.Size = new System.Drawing.Size(82, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "Data Source";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(11, 41);
+            this.label2.Location = new System.Drawing.Point(15, 50);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 13);
+            this.label2.Size = new System.Drawing.Size(50, 16);
             this.label2.TabIndex = 3;
             this.label2.Text = "User Id";
             // 
             // txtUserId
             // 
-            this.txtUserId.Location = new System.Drawing.Point(84, 38);
+            this.txtUserId.Location = new System.Drawing.Point(112, 47);
+            this.txtUserId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtUserId.Name = "txtUserId";
-            this.txtUserId.Size = new System.Drawing.Size(195, 20);
+            this.txtUserId.Size = new System.Drawing.Size(259, 22);
             this.txtUserId.TabIndex = 2;
             this.txtUserId.TextChanged += new System.EventHandler(this.txtUserId_TextChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(11, 67);
+            this.label3.Location = new System.Drawing.Point(15, 82);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 13);
+            this.label3.Size = new System.Drawing.Size(67, 16);
             this.label3.TabIndex = 5;
             this.label3.Text = "Password";
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(84, 64);
+            this.txtPassword.Location = new System.Drawing.Point(112, 79);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(195, 20);
+            this.txtPassword.Size = new System.Drawing.Size(259, 22);
             this.txtPassword.TabIndex = 3;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(11, 93);
+            this.label4.Location = new System.Drawing.Point(15, 114);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 13);
+            this.label4.Size = new System.Drawing.Size(67, 16);
             this.label4.TabIndex = 7;
             this.label4.Text = "Database";
             // 
             // txtDatabase
             // 
-            this.txtDatabase.Location = new System.Drawing.Point(84, 90);
+            this.txtDatabase.Location = new System.Drawing.Point(112, 111);
+            this.txtDatabase.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDatabase.Name = "txtDatabase";
-            this.txtDatabase.Size = new System.Drawing.Size(195, 20);
+            this.txtDatabase.Size = new System.Drawing.Size(259, 22);
             this.txtDatabase.TabIndex = 4;
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(300, 28);
+            this.btnLogin.Location = new System.Drawing.Point(400, 34);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(75, 23);
+            this.btnLogin.Size = new System.Drawing.Size(100, 28);
             this.btnLogin.TabIndex = 6;
             this.btnLogin.Text = "Kết nối";
             this.btnLogin.UseVisualStyleBackColor = true;
@@ -115,9 +123,10 @@ namespace tkBravoTool.SystemForm
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(300, 57);
+            this.btnCancel.Location = new System.Drawing.Point(400, 70);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.Size = new System.Drawing.Size(100, 28);
             this.btnCancel.TabIndex = 7;
             this.btnCancel.Text = "Hủy bỏ";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -128,12 +137,24 @@ namespace tkBravoTool.SystemForm
             this.ckbSave.AutoSize = true;
             this.ckbSave.Checked = true;
             this.ckbSave.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.ckbSave.Location = new System.Drawing.Point(300, 92);
+            this.ckbSave.Location = new System.Drawing.Point(400, 113);
+            this.ckbSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbSave.Name = "ckbSave";
-            this.ckbSave.Size = new System.Drawing.Size(44, 17);
+            this.ckbSave.Size = new System.Drawing.Size(50, 20);
             this.ckbSave.TabIndex = 5;
             this.ckbSave.Text = "Lưu";
             this.ckbSave.UseVisualStyleBackColor = true;
+            // 
+            // ckbShowPass
+            // 
+            this.ckbShowPass.AutoSize = true;
+            this.ckbShowPass.Location = new System.Drawing.Point(480, 114);
+            this.ckbShowPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbShowPass.Name = "ckbShowPass";
+            this.ckbShowPass.Size = new System.Drawing.Size(18, 17);
+            this.ckbShowPass.TabIndex = 23;
+            this.ckbShowPass.UseVisualStyleBackColor = true;
+            this.ckbShowPass.CheckedChanged += new System.EventHandler(this.ckbShowPass_CheckedChanged);
             // 
             // txtDataSource
             // 
@@ -148,29 +169,20 @@ namespace tkBravoTool.SystemForm
             this.txtDataSource.FormattingEnabled = true;
             this.txtDataSource.LinkedColumnIndex = 0;
             this.txtDataSource.LinkedTextBox = null;
-            this.txtDataSource.Location = new System.Drawing.Point(84, 12);
+            this.txtDataSource.Location = new System.Drawing.Point(112, 15);
+            this.txtDataSource.Margin = new System.Windows.Forms.Padding(4);
             this.txtDataSource.Name = "txtDataSource";
-            this.txtDataSource.Size = new System.Drawing.Size(195, 21);
+            this.txtDataSource.Size = new System.Drawing.Size(259, 23);
             this.txtDataSource.TabIndex = 1;
             this.txtDataSource.SelectedIndexChanged += new System.EventHandler(this.txtDataSource_SelectedIndexChanged);
-            // 
-            // ckbShowPass
-            // 
-            this.ckbShowPass.AutoSize = true;
-            this.ckbShowPass.Location = new System.Drawing.Point(360, 93);
-            this.ckbShowPass.Name = "ckbShowPass";
-            this.ckbShowPass.Size = new System.Drawing.Size(15, 14);
-            this.ckbShowPass.TabIndex = 23;
-            this.ckbShowPass.UseVisualStyleBackColor = true;
-            this.ckbShowPass.CheckedChanged += new System.EventHandler(this.ckbShowPass_CheckedChanged);
             // 
             // FrmLogin
             // 
             this.AcceptButton = this.btnLogin;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(390, 122);
+            this.ClientSize = new System.Drawing.Size(515, 188);
             this.ControlBox = false;
             this.Controls.Add(this.ckbShowPass);
             this.Controls.Add(this.txtDataSource);
@@ -187,6 +199,7 @@ namespace tkBravoTool.SystemForm
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmLogin";

@@ -21,5 +21,10 @@ namespace tkBravoTool.SystemForm
         {
             if (e.KeyCode == Keys.Escape) this.Close();
         }
+
+        private void FrmDonate_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

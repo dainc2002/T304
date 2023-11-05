@@ -727,5 +727,10 @@ namespace tkBravoTool
         }
 
         #endregion
+
+        private void ItemMnuCheckLogMerge_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

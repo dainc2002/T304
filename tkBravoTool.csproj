@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>tkBravoTool</RootNamespace>
     <AssemblyName>tkBravoTool</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -79,6 +79,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AllForm\FrmCheckMergeCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllForm\FrmCheckMergeCode.Designer.cs">
+      <DependentUpon>FrmCheckMergeCode.cs</DependentUpon>
+    </Compile>
     <Compile Include="AllForm\FrmCopyCommand.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -218,6 +224,8 @@
     <None Include="DesignView\Logo\Logo tkBRAVO.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\zzz.jpg" />
+    <None Include="Resources\304.png" />
     <None Include="DesignView\Logo\Find.png" />
     <Content Include="DesignView\Logo\Logo-BRAVO.ico" />
     <None Include="DesignView\Logo\z2481752559264_1ea371c0a65969f53a12dde3082fa117.jpg" />

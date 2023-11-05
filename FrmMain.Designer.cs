@@ -85,13 +85,14 @@ namespace tkBravoTool
             // 
             // menuStrip
             // 
+            this.menuStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MnuSystem,
             this.chứcNăngToolStripMenuItem,
             this.ItemMnuDonate});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(826, 24);
+            this.menuStrip.Size = new System.Drawing.Size(1101, 28);
             this.menuStrip.TabIndex = 1;
             this.menuStrip.Text = "menuStrip";
             // 
@@ -106,32 +107,32 @@ namespace tkBravoTool
             this.toolStripMenuItem1,
             this.ItemMnuSystemExit});
             this.MnuSystem.Name = "MnuSystem";
-            this.MnuSystem.Size = new System.Drawing.Size(69, 20);
+            this.MnuSystem.Size = new System.Drawing.Size(85, 24);
             this.MnuSystem.Text = "Hệ thống";
             // 
             // ItemMnuSystemLogin
             // 
             this.ItemMnuSystemLogin.Name = "ItemMnuSystemLogin";
-            this.ItemMnuSystemLogin.Size = new System.Drawing.Size(290, 22);
+            this.ItemMnuSystemLogin.Size = new System.Drawing.Size(362, 26);
             this.ItemMnuSystemLogin.Text = "Kết nối";
             this.ItemMnuSystemLogin.Click += new System.EventHandler(this.ItemMnuSystemLogin_Click);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(287, 6);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(359, 6);
             // 
             // ItemMnuConfig
             // 
             this.ItemMnuConfig.Enabled = false;
             this.ItemMnuConfig.Name = "ItemMnuConfig";
-            this.ItemMnuConfig.Size = new System.Drawing.Size(290, 22);
+            this.ItemMnuConfig.Size = new System.Drawing.Size(362, 26);
             this.ItemMnuConfig.Text = "Tham số hệ thống";
             // 
             // ItemMnuFunc
             // 
             this.ItemMnuFunc.Name = "ItemMnuFunc";
-            this.ItemMnuFunc.Size = new System.Drawing.Size(290, 22);
+            this.ItemMnuFunc.Size = new System.Drawing.Size(362, 26);
             this.ItemMnuFunc.Text = "Hàm hệ thống";
             this.ItemMnuFunc.Click += new System.EventHandler(this.ItemMnuFunc_Click);
             // 
@@ -139,18 +140,18 @@ namespace tkBravoTool
             // 
             this.ItemMnuMailTkBravoTool.Enabled = false;
             this.ItemMnuMailTkBravoTool.Name = "ItemMnuMailTkBravoTool";
-            this.ItemMnuMailTkBravoTool.Size = new System.Drawing.Size(290, 22);
+            this.ItemMnuMailTkBravoTool.Size = new System.Drawing.Size(362, 26);
             this.ItemMnuMailTkBravoTool.Text = "Đăng ký nhận mail thông tin tkBravoTool";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(287, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(359, 6);
             // 
             // ItemMnuSystemExit
             // 
             this.ItemMnuSystemExit.Name = "ItemMnuSystemExit";
-            this.ItemMnuSystemExit.Size = new System.Drawing.Size(290, 22);
+            this.ItemMnuSystemExit.Size = new System.Drawing.Size(362, 26);
             this.ItemMnuSystemExit.Text = "Thoát";
             this.ItemMnuSystemExit.Click += new System.EventHandler(this.ItemMnuSystemExit_Click);
             // 
@@ -164,34 +165,34 @@ namespace tkBravoTool
             this.ItemMnuAutoBackup,
             this.ItemMnuCheckLogMerge});
             this.chứcNăngToolStripMenuItem.Name = "chứcNăngToolStripMenuItem";
-            this.chứcNăngToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
+            this.chứcNăngToolStripMenuItem.Size = new System.Drawing.Size(93, 24);
             this.chứcNăngToolStripMenuItem.Text = "Chức năng";
             // 
             // ItemMnuTranslate
             // 
             this.ItemMnuTranslate.Name = "ItemMnuTranslate";
-            this.ItemMnuTranslate.Size = new System.Drawing.Size(212, 22);
+            this.ItemMnuTranslate.Size = new System.Drawing.Size(266, 26);
             this.ItemMnuTranslate.Text = "Dịch layout";
             this.ItemMnuTranslate.Click += new System.EventHandler(this.FrmMnuChucNang_Dich_Click);
             // 
             // ItemMnuCopyDeleteCommand
             // 
             this.ItemMnuCopyDeleteCommand.Name = "ItemMnuCopyDeleteCommand";
-            this.ItemMnuCopyDeleteCommand.Size = new System.Drawing.Size(212, 22);
+            this.ItemMnuCopyDeleteCommand.Size = new System.Drawing.Size(266, 26);
             this.ItemMnuCopyDeleteCommand.Text = "Copy/Xóa Command";
             this.ItemMnuCopyDeleteCommand.Click += new System.EventHandler(this.ItemMnuCopyDeleteCommand_Click);
             // 
             // ItemMnuCreateList
             // 
             this.ItemMnuCreateList.Name = "ItemMnuCreateList";
-            this.ItemMnuCreateList.Size = new System.Drawing.Size(212, 22);
+            this.ItemMnuCreateList.Size = new System.Drawing.Size(266, 26);
             this.ItemMnuCreateList.Text = "Tạo danh mục cơ bản";
             this.ItemMnuCreateList.Click += new System.EventHandler(this.ItemMnuCreateList_Click);
             // 
             // ItemMnuCreateCommandList
             // 
             this.ItemMnuCreateCommandList.Name = "ItemMnuCreateCommandList";
-            this.ItemMnuCreateCommandList.Size = new System.Drawing.Size(212, 22);
+            this.ItemMnuCreateCommandList.Size = new System.Drawing.Size(266, 26);
             this.ItemMnuCreateCommandList.Text = "Tạo danh mục Command";
             this.ItemMnuCreateCommandList.Click += new System.EventHandler(this.ItemMnuCreateCommandList_Click);
             // 
@@ -199,21 +200,21 @@ namespace tkBravoTool
             // 
             this.ItemMnuAutoBackup.Enabled = false;
             this.ItemMnuAutoBackup.Name = "ItemMnuAutoBackup";
-            this.ItemMnuAutoBackup.Size = new System.Drawing.Size(212, 22);
+            this.ItemMnuAutoBackup.Size = new System.Drawing.Size(266, 26);
             this.ItemMnuAutoBackup.Text = "Auto backup database";
             // 
             // ItemMnuCheckLogMerge
             // 
-            this.ItemMnuCheckLogMerge.Enabled = false;
             this.ItemMnuCheckLogMerge.Name = "ItemMnuCheckLogMerge";
-            this.ItemMnuCheckLogMerge.Size = new System.Drawing.Size(212, 22);
+            this.ItemMnuCheckLogMerge.Size = new System.Drawing.Size(266, 26);
             this.ItemMnuCheckLogMerge.Text = "Kiểm tra Log, Merge Code";
+            this.ItemMnuCheckLogMerge.Click += new System.EventHandler(this.ItemMnuCheckLogMerge_Click);
             // 
             // ItemMnuDonate
             // 
             this.ItemMnuDonate.Name = "ItemMnuDonate";
-            this.ItemMnuDonate.Size = new System.Drawing.Size(147, 20);
-            this.ItemMnuDonate.Text = "Mời Rũng một tách cafe";
+            this.ItemMnuDonate.Size = new System.Drawing.Size(72, 24);
+            this.ItemMnuDonate.Text = "Donate";
             this.ItemMnuDonate.Click += new System.EventHandler(this.ItemMnuDonate_Click);
             // 
             // lblInfo1
@@ -223,12 +224,12 @@ namespace tkBravoTool
             this.lblInfo1.BackColor = System.Drawing.Color.Transparent;
             this.lblInfo1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInfo1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblInfo1.Location = new System.Drawing.Point(12, 437);
+            this.lblInfo1.Location = new System.Drawing.Point(16, 538);
+            this.lblInfo1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInfo1.Name = "lblInfo1";
-            this.lblInfo1.Size = new System.Drawing.Size(446, 14);
+            this.lblInfo1.Size = new System.Drawing.Size(459, 16);
             this.lblInfo1.TabIndex = 2;
-            this.lblInfo1.Text = "Chương trình được xây dựng và phát triển bởi: Ngô Tiến Dũng - phòng KTTK3 - Bravo" +
-    " HN";
+            this.lblInfo1.Text = "Chương trình được phát triển bởi: Team 304 - phòng KTTK3 - Bravo HN";
             // 
             // lblInfo2
             // 
@@ -237,11 +238,12 @@ namespace tkBravoTool
             this.lblInfo2.BackColor = System.Drawing.Color.Transparent;
             this.lblInfo2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInfo2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblInfo2.Location = new System.Drawing.Point(12, 451);
+            this.lblInfo2.Location = new System.Drawing.Point(16, 555);
+            this.lblInfo2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInfo2.Name = "lblInfo2";
-            this.lblInfo2.Size = new System.Drawing.Size(406, 14);
+            this.lblInfo2.Size = new System.Drawing.Size(479, 16);
             this.lblInfo2.TabIndex = 3;
-            this.lblInfo2.Text = "Mọi ý kiến đóng góp về chương trình xin gửi về hòm mail: dungnt3@bravo.com.vn";
+            this.lblInfo2.Text = "Mọi ý kiến đóng góp về chương trình xin gửi về hòm mail: ...@bravo.com.vn";
             // 
             // lblBranchName
             // 
@@ -250,9 +252,10 @@ namespace tkBravoTool
             this.lblBranchName.BackColor = System.Drawing.Color.Transparent;
             this.lblBranchName.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBranchName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblBranchName.Location = new System.Drawing.Point(12, 421);
+            this.lblBranchName.Location = new System.Drawing.Point(16, 518);
+            this.lblBranchName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBranchName.Name = "lblBranchName";
-            this.lblBranchName.Size = new System.Drawing.Size(63, 13);
+            this.lblBranchName.Size = new System.Drawing.Size(74, 19);
             this.lblBranchName.TabIndex = 6;
             this.lblBranchName.Text = "Hợp đồng:";
             // 
@@ -263,26 +266,29 @@ namespace tkBravoTool
             this.lblVer.BackColor = System.Drawing.Color.Transparent;
             this.lblVer.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblVer.Location = new System.Drawing.Point(788, 421);
+            this.lblVer.Location = new System.Drawing.Point(1051, 518);
+            this.lblVer.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblVer.Name = "lblVer";
-            this.lblVer.Size = new System.Drawing.Size(39, 13);
+            this.lblVer.Size = new System.Drawing.Size(49, 19);
             this.lblVer.TabIndex = 7;
             this.lblVer.Text = "v.X.X.X";
             // 
             // txtLink
             // 
             this.txtLink.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtLink.Location = new System.Drawing.Point(388, 27);
+            this.txtLink.Location = new System.Drawing.Point(517, 33);
+            this.txtLink.Margin = new System.Windows.Forms.Padding(4);
             this.txtLink.Name = "txtLink";
-            this.txtLink.Size = new System.Drawing.Size(396, 20);
+            this.txtLink.Size = new System.Drawing.Size(527, 22);
             this.txtLink.TabIndex = 10;
             // 
             // btnLink
             // 
             this.btnLink.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLink.Location = new System.Drawing.Point(790, 27);
+            this.btnLink.Location = new System.Drawing.Point(1053, 33);
+            this.btnLink.Margin = new System.Windows.Forms.Padding(4);
             this.btnLink.Name = "btnLink";
-            this.btnLink.Size = new System.Drawing.Size(25, 20);
+            this.btnLink.Size = new System.Drawing.Size(33, 25);
             this.btnLink.TabIndex = 11;
             this.btnLink.Text = "...";
             this.btnLink.UseVisualStyleBackColor = true;
@@ -297,12 +303,13 @@ namespace tkBravoTool
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.ColumnHeadersVisible = false;
-            this.dataGridView1.Location = new System.Drawing.Point(562, 80);
+            this.dataGridView1.Location = new System.Drawing.Point(749, 98);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 24;
             this.dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.dataGridView1.Size = new System.Drawing.Size(222, 335);
+            this.dataGridView1.Size = new System.Drawing.Size(296, 412);
             this.dataGridView1.TabIndex = 30;
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             this.dataGridView1.DragDrop += new System.Windows.Forms.DragEventHandler(this.dataGridView1_DragDrop);
@@ -315,45 +322,50 @@ namespace tkBravoTool
             // 
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(385, 109);
+            this.label3.Location = new System.Drawing.Point(513, 134);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(30, 13);
+            this.label3.Size = new System.Drawing.Size(38, 16);
             this.label3.TabIndex = 15;
             this.label3.Text = "Pass";
             // 
             // txtPassword
             // 
             this.txtPassword.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPassword.Location = new System.Drawing.Point(436, 106);
+            this.txtPassword.Location = new System.Drawing.Point(581, 130);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(120, 20);
+            this.txtPassword.Size = new System.Drawing.Size(159, 22);
             this.txtPassword.TabIndex = 14;
             // 
             // label2
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(385, 83);
+            this.label2.Location = new System.Drawing.Point(513, 102);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 13);
+            this.label2.Size = new System.Drawing.Size(50, 16);
             this.label2.TabIndex = 13;
             this.label2.Text = "User Id";
             // 
             // txtUser
             // 
             this.txtUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtUser.Location = new System.Drawing.Point(436, 80);
+            this.txtUser.Location = new System.Drawing.Point(581, 98);
+            this.txtUser.Margin = new System.Windows.Forms.Padding(4);
             this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(120, 20);
+            this.txtUser.Size = new System.Drawing.Size(159, 22);
             this.txtUser.TabIndex = 13;
             // 
             // btnDelete
             // 
             this.btnDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnDelete.Location = new System.Drawing.Point(481, 190);
+            this.btnDelete.Location = new System.Drawing.Point(641, 234);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete.Size = new System.Drawing.Size(100, 28);
             this.btnDelete.TabIndex = 17;
             this.btnDelete.Text = "Xóa";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -362,9 +374,10 @@ namespace tkBravoTool
             // btnRun
             // 
             this.btnRun.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnRun.Location = new System.Drawing.Point(481, 132);
+            this.btnRun.Location = new System.Drawing.Point(641, 162);
+            this.btnRun.Margin = new System.Windows.Forms.Padding(4);
             this.btnRun.Name = "btnRun";
-            this.btnRun.Size = new System.Drawing.Size(75, 23);
+            this.btnRun.Size = new System.Drawing.Size(100, 28);
             this.btnRun.TabIndex = 15;
             this.btnRun.Text = "Run";
             this.btnRun.UseVisualStyleBackColor = true;
@@ -374,26 +387,29 @@ namespace tkBravoTool
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(385, 56);
+            this.label1.Location = new System.Drawing.Point(513, 69);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(44, 16);
             this.label1.TabIndex = 21;
             this.label1.Text = "Name";
             // 
             // txtName
             // 
             this.txtName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtName.Location = new System.Drawing.Point(436, 53);
+            this.txtName.Location = new System.Drawing.Point(581, 65);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(120, 20);
+            this.txtName.Size = new System.Drawing.Size(159, 22);
             this.txtName.TabIndex = 12;
             // 
             // btnSave
             // 
             this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSave.Location = new System.Drawing.Point(481, 161);
+            this.btnSave.Location = new System.Drawing.Point(641, 198);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.Size = new System.Drawing.Size(100, 28);
             this.btnSave.TabIndex = 16;
             this.btnSave.Text = "Lưu";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -403,63 +419,67 @@ namespace tkBravoTool
             // 
             this.ckbShowPass.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.ckbShowPass.AutoSize = true;
-            this.ckbShowPass.Location = new System.Drawing.Point(419, 109);
+            this.ckbShowPass.Location = new System.Drawing.Point(561, 134);
+            this.ckbShowPass.Margin = new System.Windows.Forms.Padding(4);
             this.ckbShowPass.Name = "ckbShowPass";
-            this.ckbShowPass.Size = new System.Drawing.Size(15, 14);
+            this.ckbShowPass.Size = new System.Drawing.Size(18, 17);
             this.ckbShowPass.TabIndex = 99;
             this.ckbShowPass.UseVisualStyleBackColor = true;
             this.ckbShowPass.CheckedChanged += new System.EventHandler(this.ckbShowPass_CheckedChanged);
             // 
             // cmsImport
             // 
+            this.cmsImport.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.cmsImport.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.btnsplOverwrite,
             this.btnsplSaveMore});
             this.cmsImport.Name = "contextMenuStrip1";
-            this.cmsImport.Size = new System.Drawing.Size(138, 48);
+            this.cmsImport.Size = new System.Drawing.Size(158, 52);
             // 
             // btnsplOverwrite
             // 
             this.btnsplOverwrite.Name = "btnsplOverwrite";
-            this.btnsplOverwrite.Size = new System.Drawing.Size(137, 22);
+            this.btnsplOverwrite.Size = new System.Drawing.Size(157, 24);
             this.btnsplOverwrite.Text = "Lưu đè";
             this.btnsplOverwrite.Click += new System.EventHandler(this.btnsplOverwrite_Click);
             // 
             // btnsplSaveMore
             // 
             this.btnsplSaveMore.Name = "btnsplSaveMore";
-            this.btnsplSaveMore.Size = new System.Drawing.Size(137, 22);
+            this.btnsplSaveMore.Size = new System.Drawing.Size(157, 24);
             this.btnsplSaveMore.Text = "Lưu nối tiếp";
             this.btnsplSaveMore.Click += new System.EventHandler(this.btnsplSaveMore_Click);
             // 
             // cmsExport
             // 
+            this.cmsExport.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.cmsExport.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.btnsplExportAll,
             this.btnsplExportChoseOnly});
             this.cmsExport.Name = "cmsExport";
-            this.cmsExport.Size = new System.Drawing.Size(192, 48);
+            this.cmsExport.Size = new System.Drawing.Size(224, 52);
             // 
             // btnsplExportAll
             // 
             this.btnsplExportAll.Name = "btnsplExportAll";
-            this.btnsplExportAll.Size = new System.Drawing.Size(191, 22);
+            this.btnsplExportAll.Size = new System.Drawing.Size(223, 24);
             this.btnsplExportAll.Text = "Tất cả";
             this.btnsplExportAll.Click += new System.EventHandler(this.btnsplExportAll_Click);
             // 
             // btnsplExportChoseOnly
             // 
             this.btnsplExportChoseOnly.Name = "btnsplExportChoseOnly";
-            this.btnsplExportChoseOnly.Size = new System.Drawing.Size(191, 22);
+            this.btnsplExportChoseOnly.Size = new System.Drawing.Size(223, 24);
             this.btnsplExportChoseOnly.Text = "Chỉ dữ liệu được chọn";
             this.btnsplExportChoseOnly.Click += new System.EventHandler(this.btnsplExportChoseOnly_Click);
             // 
             // txtFind
             // 
             this.txtFind.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtFind.Location = new System.Drawing.Point(562, 53);
+            this.txtFind.Location = new System.Drawing.Point(749, 65);
+            this.txtFind.Margin = new System.Windows.Forms.Padding(4);
             this.txtFind.Name = "txtFind";
-            this.txtFind.Size = new System.Drawing.Size(222, 20);
+            this.txtFind.Size = new System.Drawing.Size(295, 22);
             this.txtFind.TabIndex = 20;
             this.txtFind.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtFind_KeyDown);
             // 
@@ -468,9 +488,10 @@ namespace tkBravoTool
             this.btnFind.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnFind.BackgroundImage = global::tkBravoTool.Properties.Resources.Find;
             this.btnFind.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnFind.Location = new System.Drawing.Point(790, 53);
+            this.btnFind.Location = new System.Drawing.Point(1053, 65);
+            this.btnFind.Margin = new System.Windows.Forms.Padding(4);
             this.btnFind.Name = "btnFind";
-            this.btnFind.Size = new System.Drawing.Size(25, 20);
+            this.btnFind.Size = new System.Drawing.Size(33, 25);
             this.btnFind.TabIndex = 21;
             this.btnFind.UseVisualStyleBackColor = true;
             this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
@@ -481,10 +502,11 @@ namespace tkBravoTool
             this.pictkBravoTool.BackColor = System.Drawing.Color.Transparent;
             this.pictkBravoTool.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictkBravoTool.Enabled = false;
-            this.pictkBravoTool.Image = global::tkBravoTool.Properties.Resources.Logo_tkBRAVO;
-            this.pictkBravoTool.Location = new System.Drawing.Point(618, 421);
+            this.pictkBravoTool.Image = global::tkBravoTool.Properties.Resources._304;
+            this.pictkBravoTool.Location = new System.Drawing.Point(824, 518);
+            this.pictkBravoTool.Margin = new System.Windows.Forms.Padding(4);
             this.pictkBravoTool.Name = "pictkBravoTool";
-            this.pictkBravoTool.Size = new System.Drawing.Size(218, 61);
+            this.pictkBravoTool.Size = new System.Drawing.Size(276, 63);
             this.pictkBravoTool.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictkBravoTool.TabIndex = 4;
             this.pictkBravoTool.TabStop = false;
@@ -492,10 +514,11 @@ namespace tkBravoTool
             // splExport
             // 
             this.splExport.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.splExport.Location = new System.Drawing.Point(481, 219);
+            this.splExport.Location = new System.Drawing.Point(641, 270);
+            this.splExport.Margin = new System.Windows.Forms.Padding(4);
             this.splExport.Menu = this.cmsExport;
             this.splExport.Name = "splExport";
-            this.splExport.Size = new System.Drawing.Size(75, 23);
+            this.splExport.Size = new System.Drawing.Size(100, 28);
             this.splExport.TabIndex = 18;
             this.splExport.Text = "Export";
             this.splExport.UseVisualStyleBackColor = true;
@@ -503,19 +526,20 @@ namespace tkBravoTool
             // splImport
             // 
             this.splImport.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.splImport.Location = new System.Drawing.Point(481, 248);
+            this.splImport.Location = new System.Drawing.Point(641, 305);
+            this.splImport.Margin = new System.Windows.Forms.Padding(4);
             this.splImport.Menu = this.cmsImport;
             this.splImport.Name = "splImport";
-            this.splImport.Size = new System.Drawing.Size(75, 23);
+            this.splImport.Size = new System.Drawing.Size(100, 28);
             this.splImport.TabIndex = 19;
             this.splImport.Text = "Import";
             this.splImport.UseVisualStyleBackColor = true;
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(826, 474);
+            this.ClientSize = new System.Drawing.Size(1101, 583);
             this.Controls.Add(this.btnFind);
             this.Controls.Add(this.txtFind);
             this.Controls.Add(this.splExport);
@@ -542,6 +566,7 @@ namespace tkBravoTool
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.MainMenuStrip = this.menuStrip;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmMain";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
