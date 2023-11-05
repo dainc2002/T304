@@ -40,9 +40,9 @@ namespace tkBravoTool.SO
             return _BranchName;
         }
 
-        public static string AppName = "tkBravoTool";
+        public static string AppName = "Team 304";
 
-        public static string vVer = "v.1.8.3";
+        public static string vVer = "v.1.0.0.0";
 
         public static string EncodeKey = "tkBravoTool";
 

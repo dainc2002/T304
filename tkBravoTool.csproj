@@ -7,12 +7,13 @@
     <ProjectGuid>{B10E0874-D209-4648-8869-B4001B668EE7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>tkBravoTool</RootNamespace>
-    <AssemblyName>tkBravoTool</AssemblyName>
+    <AssemblyName>Team 304</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
     <PublishUrl>C:\Users\dungnt3\Desktop\New folder\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -23,12 +24,11 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -163,6 +163,9 @@
     <Compile Include="SystemForm\FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AllForm\FrmCheckMergeCode.resx">
+      <DependentUpon>FrmCheckMergeCode.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AllForm\FrmCopyCommand.resx">
       <DependentUpon>FrmCopyCommand.cs</DependentUpon>
     </EmbeddedResource>

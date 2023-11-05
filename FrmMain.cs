@@ -730,7 +730,9 @@ namespace tkBravoTool
 
         private void ItemMnuCheckLogMerge_Click(object sender, EventArgs e)
         {
-
+            FrmCheckMergeCode callForm = new FrmCheckMergeCode();
+            //callForm.LOAI = "N";
+            callForm.Show();
         }
     }
 }

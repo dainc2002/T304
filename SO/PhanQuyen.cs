@@ -14,7 +14,7 @@ namespace tkBravoTool.SO
 
         private static string _sPubItemMnu = ";MnuSystem;ItemMnuFunc;ItemMnuSystemLogin;ItemMnuSystemExit;ItemMnuDonate;".ToUpper();
         //các chức năng được sử dụng đưa vào đây
-        private static string _sAvailableItemMnu = ";ItemMnuTranslate;ItemMnuCopyDeleteCommand;ItemMnuCreateList;ItemMnuCreateCommandList;".ToUpper();   //ItemMnuAutoBackup;
+        private static string _sAvailableItemMnu = ";ItemMnuTranslate;ItemMnuCopyDeleteCommand;ItemMnuCreateList;ItemMnuCreateCommandList;ItemMnuCheckLogMerge;".ToUpper();   //ItemMnuAutoBackup;
         /// <summary>
         /// Ẩn các menu trước khi kết nối thành công
         /// </summary>
